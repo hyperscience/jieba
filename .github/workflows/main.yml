@@ -21,4 +21,4 @@ jobs:
         tag_prefix: "hs-test-v"
         strategy: regex
         root: ./setup.py
-        regex_pattern: "(([0-9]+\\.){2}[0-9]+)"
+        regex_pattern: "version='(([0-9]+\\.){2}[0-9]+.*)',"
